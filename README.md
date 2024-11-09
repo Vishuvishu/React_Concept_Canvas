@@ -47,4 +47,5 @@ To explore the current page, clone the repository and follow these steps:
    ```bash
    npm run dev
 4. Access web app on:
+   ```bash
    http://localhost:5173/
