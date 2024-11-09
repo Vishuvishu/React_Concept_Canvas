@@ -58,3 +58,6 @@ export default function Slider3() {
 
   );
 }
+
+
+// learnt from Git Repo @ https://github.com/frontend-joe/css-reels/tree/main/modals/part-1

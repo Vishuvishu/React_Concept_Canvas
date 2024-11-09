@@ -88,3 +88,6 @@ export default function Modal() {
         </div>
     );
 }
+
+
+// learnt from Lun Dev @ https://youtu.be/yqaLSlPOUxM?si=4h3QQuuh5Gbps24-
