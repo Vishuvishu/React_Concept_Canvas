@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
 # React_Concept_Canvas
 
 Welcome to **React_Concept_Canvas**, a dynamic repository dedicated to exploring a variety of programming concepts and libraries through interactive learning modules. Each page will focus on a different technology, allowing you to dive deep into specific areas of interest.
@@ -16,11 +6,22 @@ Welcome to **React_Concept_Canvas**, a dynamic repository dedicated to exploring
 
 This project is built using [Vite](https://vitejs.dev/), a modern build tool that offers fast development and optimized builds. Vite provides a smooth experience with hot module replacement and efficient bundling.
 
+
 ## Current Features
 
 ### 1. 3D Image Slider
 - **Concepts Used:** CSS3 Transitions, 3D Transforms, Flexbox
 - **Description:** A visually engaging image slider that utilizes CSS only to create a smooth 3D effect.
+- **Path:** 
+    ```bash
+    {Hosted_URL}/ or {Hosted_URL}/3dslider
+
+### 2. Animated Modals
+- **Concepts Used:** keyFrames, Grids
+- **Description:** Mltiple animated modals working dynamically, by clicking button it adds css class to modal class and shows Animation
+- **Access:** 
+    ```bash
+    {Hosted_URL}/modals
 
 ## Upcoming Pages
 
@@ -47,4 +48,3 @@ To explore the current page, clone the repository and follow these steps:
    npm run dev
 4. Access web app on:
    http://localhost:5173/
->>>>>>> 71c0ec144c61c12ecded9d1040e8bd5bd56bbc68
