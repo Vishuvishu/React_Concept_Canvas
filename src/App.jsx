@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Slider3 from './Components/3d_slider'; // Correct casing
 import Modal from './Components/Modal';
+import DragDrop from './Components/DragDrop';
 // import './styles.css';
 
 // Define your Layout component here or import it
@@ -13,6 +14,8 @@ function App() {
         <Route path="/" >
           <Route index element={<Slider3 />} />
           <Route path="3dslider" element={<Slider3 />} />
+          <Route path="modal" element={<Modal />} />
+          <Route path="dragdrop" element={<DragDrop />} />
         </Route>
         <Route path="/modals" >
           <Route index element={<Modal />} />
