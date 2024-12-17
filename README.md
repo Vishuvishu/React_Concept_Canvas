@@ -18,10 +18,17 @@ This project is built using [Vite](https://vitejs.dev/), a modern build tool tha
 
 ### 2. Animated Modals
 - **Concepts Used:** keyFrames, Grids
-- **Description:** Mltiple animated modals working dynamically, by clicking button it adds css class to modal class and shows Animation
+- **Description:** Multiple animated modals working dynamically, by clicking button it adds css class to modal class and shows Animation
 - **Access:** 
     ```bash
-    {Hosted_URL}/modals
+    {Hosted_URL}/modals or {Hosted_URL}/modal
+
+### 3. DragDrop UI section
+- **Concepts Used:** 
+- **Description:** 
+- **Access:** 
+    ```bash
+    {Hosted_URL}/dragdrop
 
 ## Upcoming Pages
 
