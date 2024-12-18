@@ -23,40 +23,40 @@ export default function Slider3() {
         backgroundPosition: 'center', // Center the image
         height: '100vh', // Full height
         width: '100%', // Full width
-      };
+    };
     return (
-     
-        <div style={style}>
-    <div class="banner" >
-    <div class="slider" style={{'--quantity': 10}}>
-        <div class="item" style={{'--position': 1}}><img src={robot1} alt=""/></div>
-        <div class="item" style={{'--position': 2}}><img src={robot2} alt=""/></div>
-        <div class="item" style={{'--position': 3}}><img src={robot3} alt=""/></div>
-        <div class="item" style={{'--position': 4}}><img src={robot4} alt=""/></div>
-        <div class="item" style={{'--position': 5}}><img src={robot5} alt=""/></div>
-        <div class="item" style={{'--position': 6}}><img src={robot6} alt=""/></div>
-        <div class="item" style={{'--position': 7}}><img src={robot7} alt=""/></div>
-        <div class="item" style={{'--position': 8}}><img src={robot8} alt=""/></div>
-        <div class="item" style={{'--position': 9}}><img src={robot9} alt=""/></div>
-        <div class="item" style={{'--position': 10}}><img src={robot10} alt=""/></div>
-    </div>
-    <div class="content">
-        <h1 data-content="3D Slider">
-            3D Slider
-        </h1>
-        <div class="author">
-            <h2>By</h2>
-            <p><b>Vishu Bhingradiya</b></p>
-            <h3>
-            Designer and Developer
-</h3>
-        </div>
-        <div class="model"></div>
-    </div>
-</div>
-</div>
 
-  );
+        <div style={style}>
+            <div className="banner" >
+                <div className="slider" style={{ '--quantity': 10 }}>
+                    <div className="item" style={{ '--position': 1 }}><img src={robot1} alt="" /></div>
+                    <div className="item" style={{ '--position': 2 }}><img src={robot2} alt="" /></div>
+                    <div className="item" style={{ '--position': 3 }}><img src={robot3} alt="" /></div>
+                    <div className="item" style={{ '--position': 4 }}><img src={robot4} alt="" /></div>
+                    <div className="item" style={{ '--position': 5 }}><img src={robot5} alt="" /></div>
+                    <div className="item" style={{ '--position': 6 }}><img src={robot6} alt="" /></div>
+                    <div className="item" style={{ '--position': 7 }}><img src={robot7} alt="" /></div>
+                    <div className="item" style={{ '--position': 8 }}><img src={robot8} alt="" /></div>
+                    <div className="item" style={{ '--position': 9 }}><img src={robot9} alt="" /></div>
+                    <div className="item" style={{ '--position': 10 }}><img src={robot10} alt="" /></div>
+                </div>
+                <div className="content">
+                    <h1 data-content="3D Slider">
+                        3D Slider
+                    </h1>
+                    <div className="author">
+                        <h2>By</h2>
+                        <p><b>Vishu Bhingradiya</b></p>
+                        <h3>
+                            Designer and Developer
+                        </h3>
+                    </div>
+                    <div className="model"></div>
+                </div>
+            </div>
+        </div>
+
+    );
 }
 
 
